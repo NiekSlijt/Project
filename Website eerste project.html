@@ -1,0 +1,83 @@
+<!-- 
+this page is used to make the first website for the group city project
+created:20/09/2021
+author: M. Bergman
+Last edited on 27/09/2021 by M. Bergman
+version 0.01b
+-->
+<!Doctype HTML>
+<HTML>
+<head>
+<title> Homepage </title>
+<style>
+	body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {background-image: url('./images/TS.Gif');
+background-repeat: no-repeat;
+Background-size: cover;
+}
+</style>
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href='./website/website 9-11.html'>Tragedies</a>
+		<a href='./Website/Website Route.html'>Route</a>
+	  </div>
+	  
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+	  
+	  <script>
+	  function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	  }
+	  
+	  function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+	  }
+	  </script>
+<H1 style="color:white;"> New York City</h1><br/><br/><p style="color:white"> New York is the largest city in the United States of America. Thanks to its leading and influential role in trade, finance, media, public relations, art, fashion and education, she is considered one of the most important cities in the world. The city is also called New York City of NYC to distinguish it from the state of New York, in which it is located. New York is not the capital of that state, that's Albany.
+The New York conurbation is one of the largest urban areas in the world. The city is the most densely populated major city in the United States with approximately 8.5 million inhabitants spread over an area of 789.43 km.  The city of New York consists of five boroughs:
+The Bronx, Brooklyn, Manhattan, Queens and Staten Island. Many monuments and neighborhoods of the city are world famous and often symbolize the United States in general. There are the Statue of Liberty, Wall Street, skyscrapers such as the Empire State Building and the Chrysler Building, the old World Trade Center, destroyed by terrorists in 2001, with the Twin Towers and its successor, the One World Trade Center, which opened in 2014.</p>
+</body>
+</HTML>
